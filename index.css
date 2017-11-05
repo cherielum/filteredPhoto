@@ -1,0 +1,30 @@
+body {
+	margin: 0; 
+	padding: 0; 
+}
+
+.container {
+	position: absolute;
+	top: 45%;
+	left: 40%;
+	transform: translate(-40%, -45%); 
+	width: 880px;
+	height: 394px;
+}
+
+.imageBox {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.imageAfter {
+	width:0%; 
+	transition: 2s;
+	overflow: hidden;
+	border-right: 10px solid #f00;
+}
+
+.container:hover .imageAfter {
+	width:110%;
+}
